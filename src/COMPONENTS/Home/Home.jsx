@@ -90,7 +90,7 @@ const Home = () => {
                 {popularMovies[0] && <p>{popularMovies[0].overview}</p>}
 
                 <div>
-                    <button><BiPlay /> Play  </button>
+                    <button> Play <BiPlay /> </button>
                     <button>My List <AiOutlinePlus /> </button>
                 </div>
             </div>
